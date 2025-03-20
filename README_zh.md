@@ -17,7 +17,7 @@ npm install
 运行并访问 http://localhost:4321。
 
 ```bash
-npn run dev
+npm run dev
 ```
 
 构建应用：

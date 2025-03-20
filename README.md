@@ -17,7 +17,7 @@ npm install
 Run and visit http://localhost:4321.
 
 ```bash
-npn run dev
+npm run dev
 ```
 
 Build the App:
