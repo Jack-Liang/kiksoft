@@ -29,7 +29,9 @@ export default defineConfig({
     }),
     sitemap(),
     tailwind(),
-    react(),
+    react({
+      ssr: false
+    }),
   ],
 
   output: "server",
