@@ -7,6 +7,8 @@ import Tag from "../../components/tag.astro";
 import DateTag from "../../components/date-tag.astro";
 import PostContent from "../../components/post/post-content.astro";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
   return posts.map((post) => ({

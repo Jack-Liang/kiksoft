@@ -4,6 +4,8 @@ import Layout from "../../components/layout.astro";
 import PostListing from "../../components/post/post-list.astro";
 import SlugList from "../../components/slug-list.astro";
 
+export const prerender = true;
+
 type Post = CollectionEntry<"blog">;
 
 export async function getStaticPaths() {
