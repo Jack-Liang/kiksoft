@@ -30,10 +30,11 @@ export default defineConfig({
     sitemap(),
     tailwind(),
     react({
-      ssr: false
+      ssr: false,
+      include: ["**/*.jsx", "**/*.tsx"],
+      client: true
     }),
   ],
 
-  output: "server",
-  adapter: cloudflare()
+  output: "static"
 });
