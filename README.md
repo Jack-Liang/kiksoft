@@ -11,25 +11,25 @@ Mia is designed to be minimalist yet powerful, integrating the capabilities of A
 Install the dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run and visit http://localhost:4321.
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Build the App:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 You will then see the `dist` folder generated for publishing, which you can preview locally with the following command:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 ### Using Rough Notation

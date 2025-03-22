@@ -6,14 +6,18 @@ import { defineConfig } from "astro/config";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://astro-theme-mia.pages.dev",
   trailingSlash: "never",
+
   prefetch: {
     prefetchAll: true,
     defaultStrategy: "viewport",
   },
+
   integrations: [
     mdx({
       syntaxHighlight: "shiki",
@@ -27,5 +31,7 @@ export default defineConfig({
     tailwind(),
     react(),
   ],
+
   output: "static",
+  adapter: cloudflare(),
 });

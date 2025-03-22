@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["plugin:astro/recommended"],
+  extends: ["plugin:astro/recommended", "prettier", "plugin:prettier/recommended"],
   overrides: [
     {
       files: ["*.astro"],

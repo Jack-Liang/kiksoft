@@ -1,5 +1,5 @@
 ---
-import Tweet from "astro-tweet";
+// import Tweet from "astro-tweet"; // Commented out due to compatibility issues with Astro 5.5.4
 import { type CollectionEntry } from "astro:content";
 
 // MDX Components
@@ -68,6 +68,6 @@ const { Content } = await post.render();
     Box,
     Notation,
     N: Notation,
-    Tweet,
+    // Tweet, // Commented out due to compatibility issues with Astro 5.5.4
   }}
 />

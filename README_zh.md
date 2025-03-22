@@ -11,25 +11,25 @@ Mia 旨在简约而强大，集成了 Astro、MDX 和 Rough Notation 的功能�
 安装依赖：
 
 ```bash
-npm install
+pnpm install
 ```
 
 运行并访问 http://localhost:4321。
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 构建应用：
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 然后你会看到生成的 `dist` 文件夹，可以使用以下命令在本地预览:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 ### 在文章中使用 Rough Notation
